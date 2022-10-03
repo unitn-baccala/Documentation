@@ -31,7 +31,7 @@ Utente non autenticato (gestore):
   - l'utente può accedere al servizio tramite una pagina di login dove inserisce indirizzo email e password;
   - l'utente può abilitare l'autenticazione a due fattori tramite email.
 - rf-1 reset password:
-  - nella pagina di login l'utente può chiedere di cambiare la password in caso di necessità tramite un pulsante dedicato; succesivamente deve inserire l'indirizzo email associato all'account di cui vuole cambiare password e attendere un'email contenente un link temporaneo che rimanda ad una pagina dedicata alla scelta di una nuova password.
+  - nella pagina di login l'utente può chiedere di cambiare la password in caso di necessità tramite un pulsante dedicato; successivamente deve inserire l'indirizzo email associato all'account di cui vuole cambiare password e attendere un'email contenente un link temporaneo che rimanda ad una pagina dedicata alla scelta di una nuova password.
 
 Utente autenticato (gestore):
 
@@ -42,9 +42,9 @@ Utente autenticato (gestore):
   - gli elementi sono composti da un nome, una descrizione, la lista degli ingredienti e opzionalmente un'immagine;
   - l'utente può personalizzare il menù utilizzando layout e temi già pronti, e può inoltre modificare i parametri del tema scelto.
 - rf-1 anteprima:
-  - l'utente può, attraverso la pagina di modifice del menù, ottenere un'anteprima di cosa vedranno i consumatori.
+  - l'utente può, attraverso la pagina di modifica del menù, ottenere un'anteprima di cosa vedranno i consumatori.
 - rf-1 abbonamento:
-  - l' utente può pagare per abbonarsi al servizio tramite Stripe, sbloccando la funzione di [generazione del codice QR](#generazione-qr).
+  - l'utente può pagare per abbonarsi al servizio tramite Stripe, sbloccando la funzione di [generazione del codice QR](#generazione-qr).
 - <a name="generazione-qr"></a>rf-1 generazione del codice QR:
   - l'utente può generare codici QR che permettono l'accesso al menù corrispondente;
   - il codice QR può condurre a diversi menù o sezioni del menù secondo le necessità del gestore, per esempio mostrando agli utenti menù differenti in base a data e ora.
