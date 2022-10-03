@@ -44,8 +44,8 @@ Utente autenticato (gestore):
 - rf-1 anteprima:
   - l'utente può, attraverso la pagina di modifice del menù, ottenere un'anteprima di cosa vedranno i consumatori.
 - rf-1 abbonamento:
-  - l' utente può pagare per abbonarsi al servizio tramite Stripe, sbloccando la funzione di [generazione del codice QR](#rf-1-generazione-qr-code).
-- rf-1 generazione del codice QR:
+  - l' utente può pagare per abbonarsi al servizio tramite Stripe, sbloccando la funzione di [generazione del codice QR](#generazione-qr).
+- <a name="generazione-qr"></a>rf-1 generazione del codice QR:
   - l'utente può generare codici QR che permettono l'accesso al menù corrispondente;
   - il codice QR può condurre a diversi menù o sezioni del menù secondo le necessità del gestore, per esempio mostrando agli utenti menù differenti in base a data e ora.
 
